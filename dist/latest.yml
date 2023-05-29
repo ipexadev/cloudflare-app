@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: Cloudflare-Desktop-Setup-1.0.0.exe
+    sha512: NyKHroOHax7nlDzVBRaE/PiQ2GtM5RjDsclPtEha/MUdzgSjrxR1MIGLyO+J3dYWb+ESRuaQIE8lYP6BRez/pw==
+    size: 62378650
+path: Cloudflare-Desktop-Setup-1.0.0.exe
+sha512: NyKHroOHax7nlDzVBRaE/PiQ2GtM5RjDsclPtEha/MUdzgSjrxR1MIGLyO+J3dYWb+ESRuaQIE8lYP6BRez/pw==
+releaseDate: '2023-05-29T23:26:41.123Z'

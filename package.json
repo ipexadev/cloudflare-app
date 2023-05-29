@@ -1,0 +1,52 @@
+{
+  "name": "cloudflareapp",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "description": "A Cloudflare App",
+  "author": "IPEXA",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipexadev/Cloudflare-App.git"
+  },
+  "build": {
+    "appId": "dev.ipexa.cloudflare.desktop",
+    "productName": "Cloudflare Desktop",
+    "icon": "assets/icons/app_icon.png",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ]
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "ipexadev",
+        "repo": "cloudflare-app"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^15.0.0",
+    "electron-builder": "^22.13.1"
+  }
+}
